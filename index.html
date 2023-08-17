@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Segitiga</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Kalkulator Penghitung Keliling Dan Luas Segitiga</h1>
+    </header>
+    <main>
+        <section class="perimeter-formula">
+            <div class="sub-title">
+                <h2>Keliling Segitiga</h2>
+            </div>
+            <img src="assets/Keliling.jpg">
+            <div class="ket">
+                <p>Keterangan : s = Sisi K = Keliling</p>   
+            </div>
+            <div class="input-number">
+                <label for="side">Sisi 1 :</label>
+                <input type="number" id="side1">
+                <label for="side">Sisi 2 :</label>
+                <input type="number" id="side2">
+                <label for="side">Sisi 3 :</label>
+                <input type="number" id="side3">
+            </div>
+            <button type="submit" onclick="calculatePerimeter()">Hitung</button>
+            <button type="reset" onclick="resetFormPerimeter()">Reset</button>
+            <p id="result-perimeter"></p>
+        </section>
+        <section class="area-formula">
+            <div class="sub-title">
+                <h2>Luas Segitiga</h2>
+            </div>
+            <img src="assets/Luas.png">
+            <div class="input-number">
+                <label for="base">Alas  :</label>
+                <input type="number" id="base">
+                <label for="height">Tinggi  :</label>
+                <input type="number" id="height">
+            </div>
+            <button type="submit" onclick="calculateArea()">Hitung</button>
+            <button type="reset" onclick="resetFormArea()">Reset</button>
+            <p id="result-area"></p>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="./js/script.js" ></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #d11382;
+    height: 100px;
+}
+
+main 
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.perimeter-formula, .area-formula
+{
+    border: 5px solid;
+    border-radius: 5px;
+    border-color: #ffffff;
+}
+
+section.perimeter-formula .input-number
+{
+    margin-bottom: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    display: flex;
+    margin-top: 40px;
+
+}
+
+section.area-formula .input-number
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+input
+{
+    padding: 10px 20px;
+    border: 5px solid #d11382;
+    border-radius: 5px;
+}
+
+.result
+{
+    margin-bottom: 50px;
+}
+.area-formula img
+{
+    width: 50%;
+}
+
+.area-formula
+{
+    margin-top: 50px;
+}
+
+button
+{
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: #C7E8CA;
+    background-color: #d11382;
+    color: #fcfcff;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: #21BF73;
+}
