@@ -1,4 +1,4 @@
-function resetFormPerimeter() 
+function resetPerimeter() 
 {
     document.getElementById("side1").value = "";
     document.getElementById("side2").value = "";
@@ -6,7 +6,7 @@ function resetFormPerimeter()
     document.getElementById("result-perimeter").innerHTML = "";
 }
 
-function resetFormArea()
+function resetArea()
 {
     document.getElementById("base").value = "";
     document.getElementById("height").value = "";
